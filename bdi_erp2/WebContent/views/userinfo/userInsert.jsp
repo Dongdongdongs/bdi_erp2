@@ -6,27 +6,27 @@
 <form action="<%=rPath%>/views/userinfo/userInsertOK.jsp" onsubmit="return checkVal()">
 	<fieldset>
 		<legend>유저 등록</legend>
-		<table class="table-bordered">
+		<table class="table table-bordered">
 			<tr>
 				<th>이름</th>
 				<td><input type="text" name="uiName"></td>
-				</tr>
+			</tr>
 			<tr>
 				<th>아이디</th>
 				<td><input type="text" name="uiId"></td>
-				</tr>
+			</tr>
 			<tr>
 				<th>비밀번호</th>
 				<td><input type="password" name="uiPwd"></td>
-				</tr>
+			</tr>
 			<tr>
 				<th>유저설명</th>
 				<td><textarea name="uiDesc"></textarea></td>
-				</tr>
+			</tr>
 			<tr>
 				<th>나이</th>
 				<td><input type="number" name="uiAge" min="1" max="120"></td>
-				</tr>
+			</tr>
 			<tr>
 				<th>부서번호</th>
 				<td><input type="number" name="diNo" min="1" max="3"></td>
@@ -34,7 +34,7 @@
 			<tr>
 				<td colspan="2" align="center">
 					<button>유저등록</button>
-				</td>
+			</td>
 			</tr>
 		</table>
 	</fieldset>
