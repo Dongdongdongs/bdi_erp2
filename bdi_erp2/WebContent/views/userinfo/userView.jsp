@@ -45,7 +45,10 @@ if(rs.next()){
 				<th>아이디</th>
 				<td><input type="text" name="uiId" value="<%=uiId%>"></td>
 			</tr>
-
+			<tr>
+				<th>비밀번호</th>
+				<td><input type="password" name="uiPwd"></td>
+			</tr>
 			<tr>
 				<th>유저설명</th>
 				<td><textarea name="uiDesc"><%=uiDesc%></textarea></td>
@@ -65,6 +68,7 @@ if(rs.next()){
 			</td>
 			</tr>
 		</table>
+		<input type="hidden" name="uiNo" value="<%=uiNo%>">
 	</fieldset>
 </form>
 </div>
